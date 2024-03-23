@@ -49,7 +49,7 @@ def getRandomWord():
     if len(sys.argv) > 1:
         return sys.argv[1]
     else:
-        file = open("words.txt", "r")
+        file = open("words_easy.txt", "r")
         # Strip removes the new line at the end of each word.
         words = [word.strip() for word in file.readlines()]
 
